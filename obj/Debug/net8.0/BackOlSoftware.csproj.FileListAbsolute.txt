@@ -177,3 +177,4 @@ G:\OlSoftware dotNet\Back\BackOlSoftware\BackOlSoftware\bin\Debug\net8.0\Microso
 G:\OlSoftware dotNet\Back\BackOlSoftware\BackOlSoftware\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 G:\OlSoftware dotNet\Back\BackOlSoftware\BackOlSoftware\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
 G:\OlSoftware dotNet\Back\BackOlSoftware\BackOlSoftware\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+G:\OlSoftware dotNet\Back\BackOlSoftware\BackOlSoftware\obj\Debug\net8.0\BackOlSoftware.sourcelink.json

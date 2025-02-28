@@ -56,9 +56,9 @@ namespace BackOlSoftware.Controllers
                             u.Password == _util.encryptSHA256(user.Password)
                             ).FirstOrDefaultAsync();
             if(userFind == null)
-                return StatusCode(StatusCodes.Status200OK, new { isSuccess = false, token = "" });
+                return NotFound( new { isSuccess = false, token = "" });
             else
-                return StatusCode(StatusCodes.Status200OK, new { isSuccess = true, token = _util.generateJWT(userFind) });
+                return Ok( new { isSuccess = true, token = _util.generateJWT(userFind) });
         }
     }
 }

@@ -37,7 +37,7 @@ namespace BackOlSoftware.Custom
             var userClaims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, model.UserId.ToString()),
-                new Claim(ClaimTypes.Email, model.Email!),
+                new Claim(ClaimTypes.Name, model.Name),
                 new Claim(ClaimTypes.Role, model.Role.Name)
             };
 

@@ -124,16 +124,15 @@ public class MerchantController : ControllerBase
 
 
     [HttpPatch("{id}/status")]
-    public async Task<IActionResult> UpdateMerchantStatus(int id, [FromBody] string status)
+    public async Task<IActionResult> UpdateMerchantStatus(int id)
     {
         var merchant = await _dbContext.Merchants.FindAsync(id);
         if (merchant == null)
             return NotFound(new { status = 404, msg = "Comerciante no encontrado" });
 
-        if (status != "Activo" && status != "Inactivo")
-            return BadRequest(new { status = 400, msg = "Estado inválido" });
 
-        merchant.Status = status;
+        merchant.Status = merchant.Status == "Active" ? "Inactive" : "Active";
+
         await _dbContext.SaveChangesAsync();
 
         return Ok(new { status = 200, msg = "Estado actualizado con éxito", data = merchant });

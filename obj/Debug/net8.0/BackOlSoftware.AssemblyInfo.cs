@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackOlSoftware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b59a8d6ef6a8c02f0e0518605395fa8196cab4e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f7ca1e18dd5e0493a88fc68bed380f08f7c829")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackOlSoftware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackOlSoftware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
